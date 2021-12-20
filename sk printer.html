@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!--All google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href='https://fonts.googleapis.com/css?family=Old Standard TT' rel='stylesheet'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@1,700&display=swap" rel="stylesheet">
+  <!--Jquery library cdn  always before bootstrap-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <!--Bootstrap cdn-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!--jquery downloaded file-->
+  <script type="text/javascript"  src="jquery-3.6.0.js"></script>
+  <!--local files external links of jquery and css-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="mob-style.css">
+  <script type="text/javascript" src="query.js"></script>
+</head>
+<body>
+
+  <!--The heading of the website-->
+
+<header>
+	<img src="heading.png">
+</header>
+
+<!--Navigation bar-->
+
+<nav>
+	<a href="#Products" id="prod">Products</a>
+  <p style="color:whitesmoke; margin-bottom: 0px;"><span>|</span></p>
+	<a href="#printing-slide" class="first-slider" id="print">Printing</a>
+	<p style="color:whitesmoke; margin-bottom: 0px;"><span>|</span></p>
+  <a href="#contact" id="cont">Contact Us</a>
+</nav>
+
+<!--First image slider-->
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="01.jpg" alt="-" width="1100" height="500" style="border: 1px solid #C5C3C3;">
+    </div>
+    <div class="carousel-item">
+      <img src="02.jpg" alt="-" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="03.jpg" alt="-" width="1100" height="500" style="border: 1px #C5C3C3;">
+    </div>
+    <div class="carousel-item">
+      <img src="04.jpg" alt="-" width="1100" height="500" style="border: 1px #C5C3C3;">
+    </div>
+  </div>
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<br>
+
+<!--Image cards of products-->
+
+<div class="imagecard-section" id="Products">
+	<h1 style="font-family: 'Atkinson Hyperlegible', sans-serif;"> Our Products </h1> 
+	<br>
+	<div class="imagecard">
+		<div class="image">
+			<img src="magazines.jpg">
+			<p> <span> <a href="magazines/magzines.html">Magazines</a> </span> </p>
+		</div>
+  
+		<div class="image">
+			<img src="prospectus.jpg">
+			<p> <span><a href="prospectus/prospectus.html"> Prospectus </a> </span> </p>
+		</div>
+		<div class="image">
+			<img src="flexboard.jpg">
+			<p> <span><a href="flex/flex.html"> Flex Boards</a> </span> </p>
+		</div>
+		<div class="image">
+			<img src="ledboard.jpg">
+			<p> <span><a href="LED/led.html"> LED Boards</a> </span> </p>
+		</div>
+		<div class="image">
+			<img src="visitingcard.jpg">
+			<p> <span><a href="visiting-card/Vcard.html"> Visiting Cards</a> </span> </p>
+		</div>
+		<div class="image">
+			<img src="design.jpg">
+			<p> <span><a href="magazines/magzines.html"> And all types of stationary </a></span> </p>
+		</div>
+	</div>
+</div>
+<br>
+
+<!--card slider for the prodcuts of costumization desktop campatible-->
+<div id="printing-slide">
+<div id="card-slider" class="carousel slide" data-ride="carousel">
+  <center>
+    <h1 style="font-family: 'Atkinson Hyperlegible', sans-serif;">Products We Print On</h1>
+  </center>
+<br>
+ <!-- Indicators -->
+  <ul class="carousel-indicators" id="carousel-indicators">
+    <li data-target="#card-slider" data-slide-to="0" class="active">*</li>
+    <li data-target="#card-slider" data-slide-to="1">*</li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="image-area">
+      	<div class="images">
+      		<img src="tshirt.jpg">
+          <p>Shirts and Tshirt</p>
+      	</div>
+      	<div class="images">
+      		<img src="bags.jpg">
+           <p>Bags</p>
+      	</div>
+      	<div class="images">
+      		<img src="pen.jpg">
+           <p>Pens and So on</p>
+      	</div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="image-area">
+      	<div class="images">
+      		<img src="drinkware.jpg">
+           <p>All Kinds of Drinkwares</p>
+      	</div>
+      	<div class="images">
+      		<img src="handband.jpg">
+           <p>Handbands</p>
+      	</div>
+      	<div class="images">
+      		<img src="design.jpg">
+           <p>Any Kind Of Desgining</p>
+      	</div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#card-slider" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#card-slider" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<br>
+
+ <!--card slider for the prodcuts of costumization small screen compatible 2 slides in each slider-->
+
+<div id="card-slider2" class="carousel slide" data-ride="carousel">
+  <center>
+    <h1 style="font-family: 'Atkinson Hyperlegible', sans-serif;">Products We Print On</h1>
+  </center>
+<br>
+ <!-- Indicators -->
+  <ul class="carousel-indicators" id="carousel-indicators">
+    <li data-target="#card-slider2" data-slide-to="0" class="active">*</li>
+    <li data-target="#card-slider2" data-slide-to="1">*</li>
+    <li data-target="#card-slider2" data-slide-to="2">*</li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="image-area">
+        <div class="images">
+          <img src="tshirt.jpg">
+          <p>Shirts and Tshirt</p>
+        </div>
+        <div class="images">
+          <img src="bags.jpg">
+          <p>Bags</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="image-area">
+        <div class="images">
+          <img src="pen.jpg">
+            <p>Pens and So on</p>
+        </div>
+        <div class="images">
+          <img src="drinkware.jpg">
+          <p>All Kinds of Drinkwares</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="image-area">
+        <div class="images">
+          <img src="handband.jpg">
+          <p>Handbands</p>
+        </div>
+        <div class="images">
+          <img src="design.jpg">
+           <p>Any Kind Of Desgining</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#card-slider2" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#card-slider2" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div>
+<!-- Services section with fast delivery free desgining compatible prices-->
+
+<div class="Services-section">
+   <center>
+      <h1 style="font-family: 'Atkinson Hyperlegible', sans-serif;">Our Best Services</h1>
+   </center>
+<br>
+<div class="Services">
+  <div class="service">
+    <center>
+       <img src="fast-delivery.png">
+       <h4>Fast and hasle-free delivery</h4>
+    </center>
+  </div>
+  <div class="service">
+    <center>
+       <img src="best-price.jpg">
+       <h4>Best and compatible Price</h4>
+    </center>
+  </div>
+  <div class="service">
+    <center>
+       <img src="design.png">
+       <h4>Free Designing</h4>
+       <p>On certian products</p>
+    </center>
+  </div>
+</div>
+</div>
+
+<!--Footer with contact details and products details large screen compatible-->
+<div id="contact">
+<footer class="desk-footer">
+  <ul class="products">
+    <p>More Products</p>
+  
+    <li>Letter Heads</li>
+    <li>Envelopes</li>
+    <li>Stickers</li>
+    <li>LetterPads</li>
+    <li>Invitation Cards</li>
+    <li>Certificates</li>
+    <li>Canvas</li>
+    <li>Vouchers</li>
+    <li>Banners</li>
+  </ul>
+  <ul class="products">
+    <p>Other Products</p>
+    
+    <li>Gift Boxes</li>
+    <li>Files</li>
+    <li>Documents</li>
+    <li>Textbooks</li>
+    <li>Tent Cards</li>
+    <li>Calenders</li>
+  </ul>
+  <div class="social-icons">
+    <p>Follow Us</p>
+    <div class="icons">
+    <a href="#"><img src="https://img.icons8.com/color/96/000000/google-logo.png"/></a>
+    <a href="#"><img src="https://img.icons8.com/color/96/000000/facebook.png"/></a>
+    <a href="#"><img src="https://img.icons8.com/color/96/000000/instagram-new.png"/></a>     
+    <a href="#"><img src="https://img.icons8.com/color/96/000000/linkedin.png"/></a>
+    </div>
+  </div>
+  <address>
+    <ul>
+      <caption>Our Address</caption>
+      <li>Street No. 1, Kabir Nagar,</li>
+      <li>Near DAV College, Jalandhar-144008</li>
+      <li>S.Kumar: 98159-32595, 93572-52287</li>
+      <li>Gaurav: 98144-11497</li>
+    </ul>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212.96426819119165!2d75.55956245683626!3d31.34715844104008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a5a9c6010e7f9%3A0xa207e1e62daccd1a!2sS%20Kumar%20Stationers%20%26%20Printers!5e0!3m2!1sen!2sin!4v1628238547198!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+</address>
+</footer>
+
+<!--Footer with contact details and products details small screen compatible-->
+
+<footer class="mob-footer">
+  <div class="first-footer">
+  <ul class="products">
+    <p>More Products</p>
+    <li>Letter Heads</li>
+    <li>Envelopes</li>
+    <li>Stickers</li>
+    <li>LetterPads</li>
+    <li>Invitation Cards</li>
+    <li>Certificates</li>
+    <li>Canvas</li>
+    <li>Vouchers</li>
+    <li>Banners</li>
+  </ul>
+  <ul class="products">
+    <p>Other Products</p>
+    <li>Gift Boxes</li>
+    <li>Files</li>
+    <li>Documents</li>
+    <li>Textbooks</li>
+    <li>Tent Cards</li>
+    <li>Calenders</li>
+  </ul>
+  <div class="social-icons">
+    <p>Follow Us</p>
+    <div class="icons">
+    <a href="#"><img src="https://img.icons8.com/color/96/000000/google-logo.png"/></a>
+    <a href="#"><img src="https://img.icons8.com/color/96/000000/facebook.png"/></a>
+    <a href="#"><img src="https://img.icons8.com/color/96/000000/instagram-new.png"/></a>     
+    <a href="#"><img src="https://img.icons8.com/color/96/000000/linkedin.png"/></a>
+    </div>
+  </div>
+</address>
+</div>
+<div class="second-footer">
+  <center>
+    <address>
+      Street No. 1, Kabir Nagar,<br>
+      Near DAV College,Jalandhar-144008<br>
+      Contact No:- 98159-32595, 98144-11497
+    </address>
+  </center>
+</div>
+</footer>
+</div>
+</body>
+<script>
+ 
+</script>
+</html>
